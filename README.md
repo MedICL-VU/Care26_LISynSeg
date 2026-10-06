@@ -10,7 +10,7 @@ Jiacheng Wang, Ivana Isgum, Ipek Oguz
 
 LISynSeg changes the **training examples and supervision** of a standard 3D full-resolution nnU-Net. It mixes real CT/MRI patches with images synthesized from cardiac labels, perturbs the Myo–LV interface on synthetic examples, and excludes uncertain distal AO/PA endpoint voxels from the training loss. Inference uses ordinary nnU-Net.
 
-This is a **compact method release**: the central operations and equations are provided in readable form. It is not a full reproduction of the original nnU-Net experiments, data preparation, challenge submission, or trained weights. The code expects preprocessed, already augmented nnU-Net patches and internal labels `0..7`.
+This is a **compact method release**: the central operations and equations are provided in readable form. The method code expects preprocessed, already augmented nnU-Net patches and internal labels `0..7`. See [`submission/`](submission/) for the frozen nnU-Net challenge inference, Docker build, and pretrained weight download.
 
 ## What is here
 
