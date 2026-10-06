@@ -1,0 +1,337 @@
+{
+  "format": "nnunetv2_inference_only_checkpoint_bundle_snapshot_v2",
+  "status": "complete",
+  "model_count": 8,
+  "checkpoint_count": 41,
+  "models": [
+    {
+      "name": "dataset613_basic",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "1003323417e8b10a0cb06e5ea8fb139d2522659c84fd50669a97a843f009b124",
+        "plans.json": "23ba530e5aa0a66a20699be3ac04a77fef7fdbe8cebc8e370d140b71e57f4c34"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "0e2cf542dc3f5dd9c8ad58c69fb87b5aec043b716215f4f8006788ad8bdcaa14"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "5c3769d90694fd7dff2ba0055d314da4ac429d1d45b2f8fe98495d6cd902a8b8"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "41a6bd29ac4f823794abbd4c06ad220d6dd1313b37aab6e84ae05b4fe50952d1"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "21c6801daeb24eb8d4aeb75b482263b2bd984a168390ad41eac4759e6e8494b4"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "acd322b997bb5a477bb45fa48399c1f3915769883c16998bfd99b8cf67c3b79a"
+        }
+      ]
+    },
+    {
+      "name": "dataset615_basic",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "1003323417e8b10a0cb06e5ea8fb139d2522659c84fd50669a97a843f009b124",
+        "plans.json": "4e3834c671e2e739e3ba584511987d1b2eeb996d3cedeac651bd07e0a023a2a3"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "de7de2907a2ec34f50b74c1e7fd90a6c02ec887fcd5b012f26c7bd74d91096ea"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "f13ef503b01967167bfa45a902935c731669d012ab4576e73af6fdd0c6448608"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "173fc3e719c38a9eafdd118e3ed996d8f38c6abc78d4f15c174070e537a9c906"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "a74c425dab9deb8274254006005a597203881fa59b52dbcda4e8bb8c78bfb99e"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "b0ed4bc7524ad4013f5e3d5339226d0dd20fa26ade5d2f2dc64f129a84516813"
+        }
+      ]
+    },
+    {
+      "name": "dataset613_da5",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "1003323417e8b10a0cb06e5ea8fb139d2522659c84fd50669a97a843f009b124",
+        "plans.json": "23ba530e5aa0a66a20699be3ac04a77fef7fdbe8cebc8e370d140b71e57f4c34"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "cfd46f7d8e248320efab41d417b96da8644a9b1eeefff2e6a328604a9abee357"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "bc4c50a05a842e8f069de0ce06819ec0aaf2e5ffc64e2720eb91cd20c54deb9e"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "201d565b986d50da875b805af6f093ecba48ea326b5865df7c0ddff5df3db075"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "d109578fa440055fe28a2fbbb52a5428055c213148a44d5f4e4d0efcbc1715d9"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "5ac08b041e66c68c639d56cd72397b8a2813efe7ce24a2ced2ba3c137a944a66"
+        }
+      ]
+    },
+    {
+      "name": "dataset615_da5",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "1003323417e8b10a0cb06e5ea8fb139d2522659c84fd50669a97a843f009b124",
+        "plans.json": "8b19945d1f2c0606e8a94a2d6a45f2beee9dc463cfe34f83cfccd408428e1c61"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "b5814605df8807d7a77a5bc9881abb80df5ac54da93ab53146ff6e067114073c"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "63467a68727721bf61a5e63691ade40e784a48143d5e6b56131d3bd84d1308f4"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "54d3126ea82266de65d808330ef3dfd39b8a245bcb3c9498299e8f55b89e8fe6"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "3002ee80c8bfb7a7174fa627c7bb02cf566b3c34b647ba3bd5ed03aeb577dccd"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "b09ca097355ddc690adc9d2eac01fe23ad6f3770f618c4cf41e00cfa0743c13b"
+        }
+      ]
+    },
+    {
+      "name": "dataset611_basic",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "6307b4512b5344f7f7664dfb08ca41578bb1fba4c2fe66d5dcb9c5e8a7594010",
+        "plans.json": "8215a53883c3fe3949c42238464a40d12a09666edc8989df516b05f7aa72f8f5"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "9c542738264570666993cc1a836f2dcafd719ffafe400cded8de6cf22c40df84"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "2704b4c8030da348f92e6cdcbf64dc814289b216fa7d2f9eea19c5f63bcf7aad"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "0d87f3ed2febf95249583e7d4190444f6d77da3bd095f5eef6a3898251526985"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "d956f728d2a7a3e9ea1dece25439a55e01e14057a29afd840aa9c236f31c6281"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "31231d798c11fc031041f2e4e5ae67ac08da163ace30c40beb755f48e607253d"
+        }
+      ]
+    },
+    {
+      "name": "dataset613_resenc",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "1003323417e8b10a0cb06e5ea8fb139d2522659c84fd50669a97a843f009b124",
+        "plans.json": "002b028c7732481f5b92d5680880a0e1fafa037772aa41dbe244a73b3a8c67c7"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "fd382a4e4c72c322646d294a3fa5f88f77171097c1ce8e5ed2a97978d8308edf"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "2169cf2e4e825238be7296f7fbb4cb19402acae6dc1250c92b983894ac9a67d5"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "626b02cb9a9fc62233f859ed3354c5c33a8e9c9379c02e68ceec2b9755ac59b5"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "992993031831d4598d115b56a9831ceaab6c14e1a0be06387689dd34ff456a77"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "59fba910f2de6c735074657cb172e049a6cd4f97897927d762f44fbeb28e745a"
+        }
+      ]
+    },
+    {
+      "name": "dataset611_resenc",
+      "folds": [
+        1
+      ],
+      "metadata_sha256": {
+        "dataset.json": "6307b4512b5344f7f7664dfb08ca41578bb1fba4c2fe66d5dcb9c5e8a7594010",
+        "plans.json": "8a8a97937742b96fac51a61bf6fb4d875d3c089a1a0ed49643c36f34e9cd42fc"
+      },
+      "checkpoints": [
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "c29aa83857c363a146147c4b7da97788a44462ae77d340e616be4dae7b5394f8"
+        }
+      ]
+    },
+    {
+      "name": "dataset679_resenc",
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "metadata_sha256": {
+        "dataset.json": "b66b0da5eb406020a58e11f2918544a94c02ccaaf141107cfda456660e9d68b7",
+        "plans.json": "875ed1b6ddcb7a7431978209517bddc499c3b928ac085e82ba02165372b5bfb7"
+      },
+      "checkpoints": [
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "96c02df642d8f00b18a723add2b6a513d1234822d35da0bb3157893e3f34d8d1"
+        },
+        {
+          "fold": 0,
+          "checkpoint_name": "checkpoint_final.pth",
+          "destination_sha256": "1715d43334a43fc2d0886463514293bc0802a8a158218206c88642329dc59580"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "aac8e21347774f5ba6356db82ef514ab3cba5c6f8557b723076a8bfacaa09b8d"
+        },
+        {
+          "fold": 1,
+          "checkpoint_name": "checkpoint_final.pth",
+          "destination_sha256": "db932ba98e396c66b76b32b87b2d5b6b93cbbd3bd655f9b0bf0819cf05b51da6"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "bcc45b10596afcbe7b23a888f5b702c80a730ae871cdb7115f31dfe97c7be090"
+        },
+        {
+          "fold": 2,
+          "checkpoint_name": "checkpoint_final.pth",
+          "destination_sha256": "54c215c7481e2d40bd4979496e7e173ad2f4c5780a97ec8911806ef6be2eb952"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "fd6c063f823432fb0c8dfa5f66db9db7f86004a083b065b4f2ca6bd2f1d12fda"
+        },
+        {
+          "fold": 3,
+          "checkpoint_name": "checkpoint_final.pth",
+          "destination_sha256": "8115a9de075391a308f4cb54c76c431db1f6fc5a9d0a1facdf813b22cf28d076"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_best.pth",
+          "destination_sha256": "c2904b5e7c88870fb4d37fb9cf7c6ee88ad3a4fc6def5d495a2b51c1f69afa7f"
+        },
+        {
+          "fold": 4,
+          "checkpoint_name": "checkpoint_final.pth",
+          "destination_sha256": "8e43e9931e579f4151f733df9774036e9f3d9dd913bdf887245948b3b3211b97"
+        }
+      ]
+    }
+  ]
+}
